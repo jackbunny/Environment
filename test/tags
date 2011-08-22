@@ -1,0 +1,26 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Bar	test.cpp	/^int Foo::Bar() {$/;"	f	class:Foo	signature:()
+Bar	test.h	/^  int Bar();$/;"	p	class:Foo	access:public	signature:()
+Foo	test.cpp	/^Foo::Foo() {$/;"	f	class:Foo	signature:()
+Foo	test.h	/^  Foo();$/;"	p	class:Foo	access:public	signature:()
+Foo	test.h	/^class Foo {$/;"	c
+Foo::Bar	test.cpp	/^int Foo::Bar() {$/;"	f	class:Foo	signature:()
+Foo::Bar	test.h	/^  int Bar();$/;"	p	class:Foo	access:public	signature:()
+Foo::Foo	test.cpp	/^Foo::Foo() {$/;"	f	class:Foo	signature:()
+Foo::Foo	test.h	/^  Foo();$/;"	p	class:Foo	access:public	signature:()
+Foo::x	test.h	/^  int x;$/;"	m	class:Foo	access:private
+a	test2.cpp	/^int a, b,c;$/;"	m	class:foo	file:	access:public
+b	test2.cpp	/^int a, b,c;$/;"	m	class:foo	file:	access:public
+c	test2.cpp	/^int a, b,c;$/;"	m	class:foo	file:	access:public
+foo	test2.cpp	/^class foo {$/;"	c	file:
+foo::a	test2.cpp	/^int a, b,c;$/;"	m	class:foo	file:	access:public
+foo::b	test2.cpp	/^int a, b,c;$/;"	m	class:foo	file:	access:public
+foo::c	test2.cpp	/^int a, b,c;$/;"	m	class:foo	file:	access:public
+main	test.cpp	/^int main()$/;"	f	signature:()
+main	test2.cpp	/^int main()$/;"	f	signature:()
+x	test.h	/^  int x;$/;"	m	class:Foo	access:private

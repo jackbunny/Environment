@@ -1,0 +1,20 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+GetOne	sample1.cc	/^int GetOne() {$/;"	f	signature:()
+GetOne	sample1.h	/^int GetOne();$/;"	p	signature:()
+GetThree	sample1.cc	/^int GetThree() {$/;"	f	signature:()
+GetThree	sample1.h	/^int GetThree();$/;"	p	signature:()
+GetX	ship.h	/^   float GetX();$/;"	p	class:Ship	access:public	signature:()
+GetY	ship.h	/^   float GetY();$/;"	p	class:Ship	access:public	signature:()
+GetZero	sample1.cc	/^int GetZero()$/;"	f	signature:()
+GetZero	sample1.h	/^int GetZero();$/;"	p	signature:()
+Ship	ship.h	/^   Ship(float x, float y);$/;"	p	class:Ship	access:public	signature:(float x, float y)
+Ship	ship.h	/^class Ship {$/;"	c
+Ship::GetX	ship.h	/^   float GetX();$/;"	p	class:Ship	access:public	signature:()
+Ship::GetY	ship.h	/^   float GetY();$/;"	p	class:Ship	access:public	signature:()
+Ship::Ship	ship.h	/^   Ship(float x, float y);$/;"	p	class:Ship	access:public	signature:(float x, float y)
+ZERO_SRC_SHIP_H_	ship.h	2;"	d

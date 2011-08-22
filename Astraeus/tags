@@ -1,0 +1,71 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+GTEST_DIR	zero/tests/Makefile	/^GTEST_DIR = ..\/..\/..\/tools\/gtest$/;"	m
+GTEST_HEADERS	zero/tests/Makefile	/^GTEST_HEADERS = $(GTEST_DIR)\/include\/gtest\/*.h \\$/;"	m
+GTEST_SRCS_	zero/tests/Makefile	/^GTEST_SRCS_ = $(GTEST_DIR)\/src\/*.cc $(GTEST_DIR)\/src\/*.h $(GTEST_HEADERS)$/;"	m
+GetOne	zero/src/sample1.cc	/^int GetOne() {$/;"	f	signature:()
+GetOne	zero/src/sample1.h	/^int GetOne();$/;"	p	signature:()
+GetThree	zero/src/sample1.cc	/^int GetThree() {$/;"	f	signature:()
+GetThree	zero/src/sample1.h	/^int GetThree();$/;"	p	signature:()
+GetX	zero/src/ship.cpp	/^float Ship::GetX() {$/;"	f	class:Ship	signature:()
+GetX	zero/src/ship.h	/^   float GetX();$/;"	p	class:Ship	access:public	signature:()
+GetY	zero/src/ship.cpp	/^float Ship::GetY() {$/;"	f	class:Ship	signature:()
+GetY	zero/src/ship.h	/^   float GetY();$/;"	p	class:Ship	access:public	signature:()
+GetZero	zero/src/sample1.cc	/^int GetZero()$/;"	f	signature:()
+GetZero	zero/src/sample1.h	/^int GetZero();$/;"	p	signature:()
+SetUp	zero/tests/ship_unittest.cpp	/^      virtual void SetUp() {$/;"	f	class:ShipTest	access:protected	signature:()
+Ship	zero/src/ship.cpp	/^Ship::Ship(float x, float y) {$/;"	f	class:Ship	signature:(float x, float y)
+Ship	zero/src/ship.h	/^   Ship(float x, float y);$/;"	p	class:Ship	access:public	signature:(float x, float y)
+Ship	zero/src/ship.h	/^class Ship {$/;"	c
+Ship::GetX	zero/src/ship.cpp	/^float Ship::GetX() {$/;"	f	class:Ship	signature:()
+Ship::GetX	zero/src/ship.h	/^   float GetX();$/;"	p	class:Ship	access:public	signature:()
+Ship::GetY	zero/src/ship.cpp	/^float Ship::GetY() {$/;"	f	class:Ship	signature:()
+Ship::GetY	zero/src/ship.h	/^   float GetY();$/;"	p	class:Ship	access:public	signature:()
+Ship::Ship	zero/src/ship.cpp	/^Ship::Ship(float x, float y) {$/;"	f	class:Ship	signature:(float x, float y)
+Ship::Ship	zero/src/ship.h	/^   Ship(float x, float y);$/;"	p	class:Ship	access:public	signature:(float x, float y)
+Ship::ThrustOff	zero/src/ship.cpp	/^void Ship::ThrustOff() {$/;"	f	class:Ship	signature:()
+Ship::ThrustOff	zero/src/ship.h	/^   void ThrustOff();$/;"	p	class:Ship	access:public	signature:()
+Ship::ThrustOn	zero/src/ship.cpp	/^void Ship::ThrustOn() {$/;"	f	class:Ship	signature:()
+Ship::ThrustOn	zero/src/ship.h	/^   void ThrustOn();$/;"	p	class:Ship	access:public	signature:()
+Ship::Update	zero/src/ship.cpp	/^void Ship::Update(float deltaTime) {$/;"	f	class:Ship	signature:(float deltaTime)
+Ship::Update	zero/src/ship.h	/^   void Update(float deltaTime);$/;"	p	class:Ship	access:public	signature:(float deltaTime)
+Ship::thrustIsOn_	zero/src/ship.h	/^   bool thrustIsOn_;$/;"	m	class:Ship	access:private
+Ship::x_	zero/src/ship.h	/^   float x_;$/;"	m	class:Ship	access:private
+Ship::y_	zero/src/ship.h	/^   float y_;$/;"	m	class:Ship	access:private
+ShipTest	zero/tests/ship_unittest.cpp	/^      ShipTest() : ship_(testX_, testY_) {}$/;"	f	class:ShipTest	access:protected	signature:()
+ShipTest	zero/tests/ship_unittest.cpp	/^class ShipTest : public ::testing::Test {$/;"	c	file:	inherits:::testing::Test
+ShipTest::SetUp	zero/tests/ship_unittest.cpp	/^      virtual void SetUp() {$/;"	f	class:ShipTest	access:protected	signature:()
+ShipTest::ShipTest	zero/tests/ship_unittest.cpp	/^      ShipTest() : ship_(testX_, testY_) {}$/;"	f	class:ShipTest	access:protected	signature:()
+ShipTest::elapsedMilliseconds_	zero/tests/ship_unittest.cpp	/^      float elapsedMilliseconds_;$/;"	m	class:ShipTest	file:	access:protected
+ShipTest::ship_	zero/tests/ship_unittest.cpp	/^      Ship ship_;$/;"	m	class:ShipTest	file:	access:protected
+ShipTest::testX_	zero/tests/ship_unittest.cpp	/^      static const float testX_;$/;"	m	class:ShipTest	file:	access:protected
+ShipTest::testX_	zero/tests/ship_unittest.cpp	/^const float ShipTest::testX_ = 100.0f;$/;"	m	class:ShipTest	file:
+ShipTest::testY_	zero/tests/ship_unittest.cpp	/^      static const float testY_;$/;"	m	class:ShipTest	file:	access:protected
+ShipTest::testY_	zero/tests/ship_unittest.cpp	/^const float ShipTest::testY_ = 100.0f;$/;"	m	class:ShipTest	file:
+TESTS	zero/tests/Makefile	/^TESTS = ship_unittest$/;"	m
+TEST_DIR	zero/tests/Makefile	/^TEST_DIR = .$/;"	m
+TEST_F	zero/tests/ship_unittest.cpp	/^TEST_F(ShipTest, ConstructorWorks) {$/;"	f	signature:(ShipTest, ConstructorWorks)
+TEST_F	zero/tests/ship_unittest.cpp	/^TEST_F(ShipTest, RotateLeftWorks) {$/;"	f	signature:(ShipTest, RotateLeftWorks)
+TEST_F	zero/tests/ship_unittest.cpp	/^TEST_F(ShipTest, ThrustOffWorks) {$/;"	f	signature:(ShipTest, ThrustOffWorks)
+TEST_F	zero/tests/ship_unittest.cpp	/^TEST_F(ShipTest, ThrustOnWorks) {$/;"	f	signature:(ShipTest, ThrustOnWorks)
+ThrustOff	zero/src/ship.cpp	/^void Ship::ThrustOff() {$/;"	f	class:Ship	signature:()
+ThrustOff	zero/src/ship.h	/^   void ThrustOff();$/;"	p	class:Ship	access:public	signature:()
+ThrustOn	zero/src/ship.cpp	/^void Ship::ThrustOn() {$/;"	f	class:Ship	signature:()
+ThrustOn	zero/src/ship.h	/^   void ThrustOn();$/;"	p	class:Ship	access:public	signature:()
+USER_DIR	zero/tests/Makefile	/^USER_DIR = ..\/src$/;"	m
+Update	zero/src/ship.cpp	/^void Ship::Update(float deltaTime) {$/;"	f	class:Ship	signature:(float deltaTime)
+Update	zero/src/ship.h	/^   void Update(float deltaTime);$/;"	p	class:Ship	access:public	signature:(float deltaTime)
+ZERO_SRC_SHIP_H_	zero/src/ship.h	2;"	d
+elapsedMilliseconds_	zero/tests/ship_unittest.cpp	/^      float elapsedMilliseconds_;$/;"	m	class:ShipTest	file:	access:protected
+ship_	zero/tests/ship_unittest.cpp	/^      Ship ship_;$/;"	m	class:ShipTest	file:	access:protected
+testX_	zero/tests/ship_unittest.cpp	/^      static const float testX_;$/;"	m	class:ShipTest	file:	access:protected
+testX_	zero/tests/ship_unittest.cpp	/^const float ShipTest::testX_ = 100.0f;$/;"	m	class:ShipTest	file:
+testY_	zero/tests/ship_unittest.cpp	/^      static const float testY_;$/;"	m	class:ShipTest	file:	access:protected
+testY_	zero/tests/ship_unittest.cpp	/^const float ShipTest::testY_ = 100.0f;$/;"	m	class:ShipTest	file:
+thrustIsOn_	zero/src/ship.h	/^   bool thrustIsOn_;$/;"	m	class:Ship	access:private
+x_	zero/src/ship.h	/^   float x_;$/;"	m	class:Ship	access:private
+y_	zero/src/ship.h	/^   float y_;$/;"	m	class:Ship	access:private
